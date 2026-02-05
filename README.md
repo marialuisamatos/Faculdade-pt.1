@@ -6,8 +6,6 @@ Repositório centralizado para documentar minha evolução técnica, projetos pr
 
 ## 🔮 5º Período: Em desenvolvimento...
 
----
-
 
 ---
 
