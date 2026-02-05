@@ -2,6 +2,8 @@
 
 Repositório centralizado para documentar minha evolução técnica, projetos práticos e colaborações em equipe realizados ao longo da graduação.
 
+**Status do curso:** 5/5 ✅🎓
+
 ---
 
 ## 🔮 5º Período: Em desenvolvimento...
@@ -25,9 +27,9 @@ Repositório centralizado para documentar minha evolução técnica, projetos pr
 * **Vibe Code:** Uso estratégico de prompts e IA para produtividade no desenvolvimento.
 * **Projeto:** Startup focada em gamificação para engajamento escolar.
 
-### **Residência Tecnológica IV**
-* **Projeto uStore:** Desenvolvimento de um gerenciador de equipes (estilo ClickUp) com integração de IA.
-* **Atuação:** Atuei no **Front-end** em uma equipe de 8 pessoas, utilizando **Python** para a lógica de negócio.
+### **Residência Tecnológica IV (uStore)**
+* **Projeto:** Desenvolvimento de um gerenciador de equipes (estilo ClickUp).
+* **Atuação:** Atuei no **Front-end** em uma equipe de 8 pessoas, utilizando **Java** para o backend, **React** para o frontend, docker compose e Postgree para o bakend, para a lógica de negócio.
 
 ### **Cooperação e Humanismo Solidário**
 * **Projeto PRESENTE!:** Automação de presença para escolas (substituindo o método em papel). Inclui Dashboard para professores e IA para criação de atividades.
