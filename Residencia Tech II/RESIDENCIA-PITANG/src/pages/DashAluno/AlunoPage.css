@@ -1,0 +1,39 @@
+.container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  padding: 20px;
+}
+
+.activities-section {
+  margin-bottom: 30px;
+}
+
+.activity-card {
+  padding: 15px;
+  background-color: #f7f7f7;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.activity-card:hover {
+  transform: scale(1.02);
+  background-color: #f0f0f0;
+}
+
+.activity-card.responded {
+  background-color: #e6ffe6;
+  cursor: default;
+}
+
+.activity-card h3 {
+  margin: 0;
+}
+
+.activity-card p {
+  margin: 5px 0 0;
+}

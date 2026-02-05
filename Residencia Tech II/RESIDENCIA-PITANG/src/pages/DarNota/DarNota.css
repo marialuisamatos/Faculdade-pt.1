@@ -1,0 +1,45 @@
+.container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.response-card {
+  padding: 10px;
+  background-color: #f7f7f7;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+.nota-input {
+  margin-top: 10px;
+  padding: 8px;
+  width: 100px;
+}
+
+.botoes-container {
+  display: flex; /* Define um layout flexível */
+  justify-content: flex-start; /* Alinha os botões à esquerda */
+  gap: 10px; /* Espaçamento entre os botões */
+  margin-top: 20px; /* Espaçamento entre os botões e os outros elementos */
+}
+
+.btn-atribuir-nota,
+.btn-voltar {
+  padding: 10px 15px;
+  background-color: orange; /* Fundo laranja */
+  color: white; /* Texto branco */
+  border: none;
+  border-radius: 4px; /* Cantos levemente arredondados */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-atribuir-nota:hover,
+.btn-voltar:hover {
+  background-color: darkorange; /* Fundo mais escuro no hover */
+}
+
+.mensagem {
+  color: green;
+  margin-top: 10px;
+}

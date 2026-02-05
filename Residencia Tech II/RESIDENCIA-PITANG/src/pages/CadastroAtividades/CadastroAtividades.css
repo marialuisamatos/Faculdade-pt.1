@@ -1,0 +1,83 @@
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: #f58220; /* cor de fundo do título */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+button[type="button"] {
+    background-color: #a6a6a6; /* cor do botão de adicionar/remover questão */
+    margin-right: 10px;
+}
+
+button[type="button"]:hover {
+    background-color: #8f8f8f;
+}
+
+button[type="submit"] {
+    background-color: #f58220; /* cor do botão de cadastrar */
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #e06f1b;
+}
+
+/* Estilo para o botão de voltar */
+button.voltar {
+    background-color: #f58220; /* cor de fundo do botão de voltar */
+    margin-bottom: 20px;
+}
+
+button.voltar:hover {
+    background-color: #e06f1b;
+}
+
+.questao-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.questao-container input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.questao-container button {
+    padding: 8px;
+    font-size: 14px;
+}

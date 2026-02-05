@@ -1,0 +1,69 @@
+.body-login {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  background: linear-gradient(71deg, rgba(174, 0, 0, 1) 0%, rgba(242, 45, 27, 1) 0%, rgba(242, 116, 5, 1) 94%);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-login h1 {
+  color: #fff;
+  font-family: fantasy;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+.container-login p {
+  font-size: 14px;
+}
+
+#img-login {
+  width: 180px;
+  height: 180px;
+}
+
+.formRegist {
+  display: grid;
+  gap: 15px;
+}
+
+.formRegist input {
+  border: none;
+  outline: 0;
+  width: 423px;
+  height: 53px;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+
+.formRegist input:focus {
+  background-color: #ededed;
+  font-size: 14px;
+}
+
+.formRegist button {
+  border: none;
+  cursor: pointer;
+  background-color: #478c27;
+  color: aliceblue;
+  width: 206px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 122px;
+}
+
+.formRegist button:hover {
+  background-color: #48832c;
+}

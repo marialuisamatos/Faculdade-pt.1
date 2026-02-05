@@ -1,0 +1,262 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #BBBBBB;
+    margin: 0;
+}
+
+.principal {
+    width: 800px;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    /* Define o contêiner como flexível, permitindo layout flexível */
+    min-height: 100vh;
+    /* Define a altura mínima do contêiner como 100% da altura da viewport */
+}
+
+li {
+    color: #000;
+    /* Define a cor do texto dos links como preto */
+    text-decoration: none;
+    /* Remove o sublinhado padrão dos links */
+    padding-top: 20px;
+    /* Adiciona 20 pixels de preenchimento ao redor dos links */
+}
+
+.menu {
+    background-color: #ff7b00;
+    /* Define a cor de fundo do menu */
+    width: 100px;
+    /* Define a largura do menu */
+    padding: 10px;
+    /* Adiciona 20 pixels de preenchimento ao redor do menu */
+}
+
+/* toda li que está dentro de ul e que ul está dentro da classe menu*/
+.menu ul li {
+    margin-top: 50px;
+}
+
+.navbar-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-item span {
+    margin-top: 10px;
+}
+
+nav {
+    list-style: none;
+    /* Remove os marcadores da lista no nav */
+    padding: 10px 10px;
+    /* Adiciona 10 pixels de preenchimento nas laterais do nav */
+}
+
+ul {
+    text-align: center;
+    /* Centraliza o texto dentro das listas não ordenadas */
+    padding: 2px;
+    /* Adiciona um preenchimento de 2 pixels ao redor das listas */
+    list-style: none;
+    /* Remove os marcadores padrão das listas */
+}
+
+.notificacao {
+    display: flex;
+    /* Torna o contêiner flexível */
+}
+
+header {
+    flex: 1;
+    /* Permite que o header ocupe o espaço restante no contêiner flexível */
+    padding: 20px;
+    /* Adiciona 20 pixels de preenchimento ao redor do header */
+}
+
+.header-content {
+    display: flex;
+    /* Ativa o flexbox para o conteúdo do header */
+    align-items: center;
+    /* Alinha verticalmente ao centro os itens dentro do header */
+    text-align: left;
+    /* Alinha o texto à esquerda */
+    margin-left: 0px;
+    /* Define a distância da borda esquerda */
+    list-style-type: none;
+    /* Remove os marcadores padrão da lista */
+}
+
+.header-image {
+    width: 82px;
+    /* Define a largura da imagem do header */
+    margin-right: 10px;
+    /* Adiciona espaço à direita da imagem */
+}
+
+hr {
+    height: 2px;
+    /* Define a altura da linha horizontal */
+    background-color: black;
+    /* Define a cor da linha horizontal */
+}
+
+section {
+    flex: 1;
+    /* Permite que a seção ocupe o espaço restante no contêiner flexível */
+    padding: 20px;
+    /* Adiciona 20 pixels de preenchimento ao redor da seção */
+}
+
+input {
+    width: 600px;
+    /* Define a largura do campo de texto */
+    height: 20px;
+    /* Define a altura do campo de texto */
+    border: none;
+    /* Remove a borda padrão do campo de texto */
+    border-radius: 200px;
+    /* Adiciona bordas arredondadas ao campo de texto */
+    padding: 10px;
+    /* Adiciona 10 pixels de preenchimento ao redor do campo de texto */
+    background-color: #fff;
+    /* Define a cor de fundo do campo de texto como branco */
+    margin: 0px 17px;
+    border: 1px solid black;
+}
+
+button {
+    background-color: #F27405;
+    /* Define a cor de fundo do botão */
+    border: none;
+    /* Remove a borda padrão do botão */
+    padding: 10px 20px;
+    /* Adiciona preenchimento vertical e horizontal ao botão */
+    cursor: pointer;
+    /* Muda o cursor para indicar que o botão é clicável */
+}
+
+img {
+    width: 30px;
+    /* Define a largura das imagens */
+}
+
+.centro {
+    text-align: center;
+    /* Centraliza o conteúdo da classe centro */
+}
+
+.mural nav {
+    display: flex;
+    /* Torna o nav um contêiner flexível */
+    align-items: center;
+    /* Alinha verticalmente ao centro os itens dentro do nav */
+}
+
+.centralizado {
+    list-style-type: none;
+    /* Remove os marcadores padrão da lista */
+    padding: 0;
+    /* Remove o recuo padrão */
+    margin: 0;
+    /* Remove a margem padrão */
+    display: flex;
+    /* Torna a lista um contêiner flexível */
+    justify-content: center;
+    /* Centraliza os itens horizontalmente */
+    flex-grow: 1;
+    /* Permite que a lista ocupe o espaço disponível */
+}
+
+.centralizado li {
+    margin-right: 20px;
+    /* Adiciona espaço entre os itens da lista */
+}
+
+.centralizado li:last-child {
+    margin-right: 0;
+    /* Remove a margem do último item da lista */
+}
+
+.descricao {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+img.notificacao {
+    height: 25px;
+    /* Define a altura da imagem */
+    width: auto;
+    /* Mantém a proporção da largura */
+    margin-top: 15px;
+    /* Adiciona 20 pixels de espaço acima da imagem */
+
+}
+
+.menu-inicial {
+    position: relative;
+    /* Permite usar a propriedade 'top' para posicionamento relativo */
+}
+
+.icons {
+    position: relative;
+    /* Permite usar a propriedade 'top' para posicionamento relativo */
+    top: 200px;
+    /* Move o elemento 200 pixels para baixo em relação à sua posição original */
+}
+
+.informacao {
+    margin-top: 180px;
+    /* Adiciona espaço acima do elemento de informação */
+}
+
+.logoFeras {
+    width: 70px;
+    /* Define a largura do logo Feras */
+}
+
+.cabecario {
+    flex: 1;
+    /* Permite que a linha horizontal ocupe o espaço restante no contêiner flexível */
+    width: 100%;
+    /* Define a largura da linha */
+    height: 2px;
+    /* Define a altura da linha */
+    background-color: black;
+    /* Define a cor da linha */
+    border: none;
+    /* Remove a borda padrão */
+    margin: 20px auto;
+    /* Adiciona margem de 20 pixels em cima e embaixo, e centraliza a linha horizontalmente */
+}
+
+.main-content {
+    width: 100%;
+}
+
+.section {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.borda {
+    padding-top: 30px;
+    border-bottom: 1px solid black;
+    margin-top: -10px;
+
+}
+
+footer {
+    border-top: 1px solid black;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    width: 92%;
+}

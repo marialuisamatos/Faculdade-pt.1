@@ -1,0 +1,12 @@
+.header {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    max-width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+}
