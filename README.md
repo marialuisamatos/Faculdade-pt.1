@@ -29,7 +29,7 @@ Repositório centralizado para documentar minha evolução técnica, projetos pr
 
 ### **Residência Tecnológica IV (uStore)**
 * **Projeto:** Desenvolvimento de um gerenciador de equipes (estilo ClickUp).
-* **Atuação:** Atuei no **Front-end** em uma equipe de 8 pessoas, utilizando **Java** para o backend, **React** para o frontend, docker compose e Postgree para o bakend, para a lógica de negócio.
+* **Atuação:** Atuei no **Front-end** em uma equipe de 8 pessoas, utilizando **Java** para o backend, **React** para o frontend, **Docker Compose** e **Postgree** para o bakend, para a lógica de negócio.
 
 ### **Cooperação e Humanismo Solidário**
 * **Projeto PRESENTE!:** Automação de presença para escolas (substituindo o método em papel). Inclui Dashboard para professores e IA para criação de atividades.
